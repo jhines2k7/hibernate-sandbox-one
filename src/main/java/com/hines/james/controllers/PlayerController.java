@@ -1,9 +1,10 @@
-package org.hines.james;
+package com.hines.james.controllers;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.module.SimpleModule;
-import com.monitorjbl.json.JsonResult;
+import com.hines.james.models.Player;
+import com.hines.james.repositories.PlayerRepository;
 import com.monitorjbl.json.JsonView;
 import com.monitorjbl.json.JsonViewSerializer;
 import org.springframework.beans.factory.annotation.Autowired;

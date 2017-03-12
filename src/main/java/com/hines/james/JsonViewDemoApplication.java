@@ -1,24 +1,12 @@
-package org.hines.james;
+package com.hines.james;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.module.SimpleModule;
-import com.monitorjbl.json.JsonView;
-import com.monitorjbl.json.JsonViewSerializer;
-import com.monitorjbl.json.JsonViewSupportFactoryBean;
+import com.hines.james.models.Fan;
+import com.hines.james.models.Player;
+import com.hines.james.models.Team;
+import com.hines.james.repositories.TeamRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Primary;
-import org.springframework.hateoas.Resource;
-import org.springframework.hateoas.ResourceProcessor;
-import org.springframework.http.converter.HttpMessageConverter;
-import org.springframework.http.converter.StringHttpMessageConverter;
-import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 import javax.annotation.PostConstruct;
 import java.util.ArrayList;

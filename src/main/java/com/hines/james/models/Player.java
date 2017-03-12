@@ -1,4 +1,4 @@
-package org.hines.james;
+package com.hines.james.models;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 

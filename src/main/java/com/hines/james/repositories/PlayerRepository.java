@@ -1,4 +1,4 @@
-package org.hines.james;
+package com.hines.james.repositories;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.rest.core.annotation.RestResource;

@@ -1,4 +1,4 @@
-package org.hines.james;
+package com.hines.james.controllers;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
